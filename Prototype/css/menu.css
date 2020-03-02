@@ -1,0 +1,154 @@
+body{
+margin: 0;
+background-color:#F3F4E9;
+}
+
+/* navigations-bar css påbegyndes */
+
+.navigations-elementer{
+background-image: url(../images/backgroundfooterandheader.PNG);   
+background-repeat: no-repeat;
+background-size: cover;
+height: auto;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-between;
+
+}
+
+.logo-link{
+width: 120px;
+border-radius: 100px;
+margin-top: 5px;
+margin-left: 5px;
+
+
+}
+
+
+.logo-link a{
+width: 1%;     
+}
+
+.navigations-elementer li {
+display: inline-flex;
+}
+
+.liste-knapper li, .liste-knapper a, .liste-knapper button{
+margin-top: 18px;
+color: black;
+padding-right: 10px;
+text-align: center;
+list-style-type: none;
+text-decoration: none;
+border-radius: 10px;
+font-size: 25px;
+font-family: 'Source Sans Pro'; 
+}
+
+
+
+.liste-knapper li a button:hover{
+background-color: grey;
+transition: 0.6s;
+}
+
+.liste-knapper li a button{
+ margin-left:50px;   
+}
+
+
+.sprog-knapper img{
+width: 50px;
+border-radius: 150px;
+height: auto;
+margin-top: 45px;
+margin-right: 10px;
+
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: Georgia, serif;
+  line-height: 1.5em;
+}
+h1 {
+  font-size: 4em;
+  font-weight: normal;
+}
+h2 {
+  font-size: 1.2em;
+  margin-top: 0;
+}
+#menu {
+  border: 3px solid #783F27;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+    }
+    
+    #flex-dish {
+        display:flex;
+        flex-wrap: wrap; 
+        width: 80%;
+        margin: auto;
+        border: 1px dotted black;
+        
+    }
+      #flex-menu {
+        display:flex;
+        flex-wrap: wrap;    
+    }
+
+#section-menu {
+  background-color: darkgray;
+  margin: 10px;
+  padding: 20px;
+  border: 1px dotted black;
+  width: 15%;
+   
+    
+}
+
+.dish {
+
+    width: 33%;
+}
+
+.price {
+  font-weight: bold;
+  background-color: darkgray;
+  padding: 5px;
+  width: 100%;
+  text-align: center;
+    margin-top: auto;
+    
+}
+
+.photo {
+  width: 250px!important;  
+  height: 100px;
+} 
+   
+  .footer-elementer{
+background-color: #F4E424;
+display: flex;
+justify-content: space-between;
+}
+
+.footer-elementer h2{
+margin-left: 20px;    
+}
+
+.footer-ting img{
+width: 80px;
+height: 80px;
+background-color: #F4E424;
+border-radius: 70px;
+}

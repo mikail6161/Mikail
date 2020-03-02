@@ -1,0 +1,213 @@
+body{
+margin: 0;
+background-color:#F3F4E9;
+}
+
+/* navigations-bar css påbegyndes */
+
+.navigations-elementer{
+background-image: url(../images/backgroundfooterandheader.PNG);   
+background-repeat: no-repeat;
+background-size: cover;
+height: auto;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-between;
+
+}
+
+.logo-link{
+width: 120px;
+border-radius: 100px;
+margin-top: 5px;
+margin-left: 5px;
+
+
+}
+
+
+.logo-link a{
+width: 1%;     
+}
+
+.navigations-elementer li {
+display: inline-flex;
+}
+
+.liste-knapper li, .liste-knapper a, .liste-knapper button{
+margin-top: 18px;
+color: black;
+padding-right: 10px;
+text-align: center;
+list-style-type: none;
+text-decoration: none;
+border-radius: 10px;
+font-size: 25px;
+font-family: cursive;
+}
+
+
+.liste-knapper li a button:hover{
+background-color: grey;
+transition: 0.6s;
+}
+
+.liste-knapper li a button{
+ margin-left:50px;   
+}
+
+
+.sprog-knapper img{
+width: 50px;
+border-radius: 150px;
+height: auto;
+margin-top: 45px;
+margin-right: 10px;
+
+
+}
+
+/* navigationsbar css afsluttes */
+
+/* Main-css påbegyndes*/
+
+.overskrift{
+margin-left: 20px;    
+}
+
+.kasse1{
+width:70%;
+border-radius: 30px;
+margin-left: 20px;
+border: 1px solid black;
+height: auto;
+display: flex;
+flex-flow: row wrap;
+}
+
+.kasse1 img{
+width: 50%;
+height: 50%;
+border-radius: 30px;
+margin-left: 20px;
+margin-top: 20px;
+}
+
+.tekst1{
+margin-left: 600px;
+margin-top: -150px;
+}
+
+.tekst2{
+margin-left: 30px;    
+}
+
+.kasse2{
+ width:70%;
+border-radius: 30px;
+margin-left: 20px;
+border: 1px solid black;
+height: auto;
+display: flex;
+flex-flow: row wrap; 
+margin-top: 20px;
+margin-bottom:
+}
+
+.kasse2 img{
+  width: 50%;
+height: 50%;
+border-radius: 30px;
+margin-left: 20px;
+margin-top: 20px;  
+}
+
+.kasse2 p{
+font-size: 25px;    
+}
+
+.text1{
+margin-left: 600px;
+margin-top: -290px;
+}
+
+.text2{
+margin-left: 600px;
+margin-top: -150px;
+}
+
+.kasse3{
+ width:70%;
+border-radius: 30px;
+margin-left: 20px;
+border: 1px solid black;
+height: auto;
+display: flex;
+flex-flow: row wrap; 
+margin-top: 20px;     
+    
+}
+
+.kasse3 img{
+   width: 50%;
+height: 50%;
+border-radius: 30px;
+margin-left: 20px;
+margin-top: 20px;  
+}
+
+.kasse3 p{
+font-size: 25px;
+}
+
+.txt1{ 
+margin-left: 50px;
+}
+
+.txt2{
+margin-left: 600px;
+margin-top: -150px;
+}
+
+.txt3{
+margin-left: 600px;
+margin-top: -60px;
+}
+
+/*main-tingene afsluttes*/
+
+/* kontaktforumlar css påbegyndes */
+.kontakt-formular{
+width: 17%;
+float: right;
+height: auto;
+border-radius: px;
+border: 1px solid black;
+margin-top: -1090px;
+margin-right: 30px;
+
+}
+
+/* footer-css påbegyndes*/
+.footer-elementer{
+background-color: #F4E424;
+display: flex;
+justify-content: space-between;
+}
+
+.footer-elementer h2{
+margin-left: 20px;    
+}
+
+.footer-ting img{
+width: 80px;
+height: 80px;
+background-color: #F4E424;
+border-radius: 70px;
+}
+
+.footer-elementer{
+margin-top: 20px;    
+}
+
+/*footer-css afsluttes*/

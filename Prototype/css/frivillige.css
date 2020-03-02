@@ -1,0 +1,142 @@
+body{
+margin: 0;
+background-color:#F3F4E9;
+}
+
+/* navigations-bar css påbegyndes */
+
+.navigations-elementer{
+background-image: url(../images/backgroundfooterandheader.PNG);   
+background-repeat: no-repeat;
+background-size: cover;
+height: auto;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-between;
+
+}
+
+.logo-link{
+width: 120px;
+border-radius: 100px;
+margin-top: 5px;
+margin-left: 5px;
+
+
+}
+
+
+.logo-link a{
+width: 1%;     
+}
+
+.navigations-elementer li {
+display: inline-flex;
+}
+
+.liste-knapper li, .liste-knapper a, .liste-knapper button{
+margin-top: 18px;
+color: black;
+padding-right: 10px;
+text-align: center;
+list-style-type: none;
+text-decoration: none;
+border-radius: 10px;
+font-size: 25px;
+font-family: cursive;
+}
+
+
+.liste-knapper li a button:hover{
+background-color: grey;
+transition: 0.6s;
+}
+
+.liste-knapper li a button{
+ margin-left:50px;   
+}
+
+
+.sprog-knapper img{
+width: 50px;
+border-radius: 150px;
+height: auto;
+margin-top: 45px;
+margin-right: 10px;
+}
+    /* nav css afsluttes */
+    
+    /*main css startes:*/
+    
+.banner{
+width: 99.99%;
+    
+}
+.overskrift1{
+
+display: inline;
+margin-left: 100px;
+font-family: cursive;
+} 
+    /*footer css starter*/
+
+
+.footer-elementer{
+background-color: #F4E424;
+display: flex;
+justify-content: space-between;
+margin-top: 280px;
+}
+
+.footer-elementer h2{
+margin-left: 20px;    
+}
+
+.de-frivillige{
+width: 70%;
+height: auto;
+background-color: #D54C4C;
+margin-left: 20px;
+display: flex;
+flex-flow: row wrap;
+margin-top: 20px;
+    
+}
+
+.de-frivillige img{
+width: 15%;
+height: 15%;
+border-radius: 100px;
+margin-left: 40px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+
+.de-frivillige h2{
+margin-left: 30px;    
+}    
+
+.de-frivillige p{
+margin-top: 60px;
+margin-left: -120px;
+width: 30%;
+font-size: 20px;
+}
+
+.bliv-frivillig{
+width: 20%;
+height: auto;
+background-color: #F8DF53; 
+text-align: center;
+
+
+margin-left: 1100px;
+margin-top: -520px;
+}
+.footer-ting img{
+width: 80px;
+height: 80px;
+background-color: #F4E424;
+border-radius: 70px;
+}
